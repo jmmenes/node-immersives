@@ -13,7 +13,7 @@
 // then `getInput(1)` would return "30", and `getInput(2)`
 // would return "5".
 function getInput(n) {
-  return process.argv[n + 2];
+  return process.argv[n + 1];
 }
 
 module.exports = getInput;
